@@ -43,6 +43,32 @@ p {
     margin: 40px 0;
 }
 
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.abnormal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
 body {
     width: 100%;
 }
@@ -268,6 +294,79 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-image: url("IMGS/FEATURES/BANNER1.png");
+    width: 100%;
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    color: #000000;
+    font-size: 28px;    
+}
+
+#banner h2 {
+    color: #000000;
+    font-size: 42px;
+    padding: 10px 0;
+}
+
+#banner h2 span {
+    color: #111fba;
+}
+
+#banner button:hover {
+    background: #1483e4;
+    color: #fff;
+}
+
+#banner2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("IMGS/FEATURES/BANNER2.png");
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner2 h4 {
+    color: #000000;
+    font-size: 28px;
+}
+
+#banner2 h2 {
+    color: #000000;
+    font-size: 44px;
+    padding: 20px 0;
+}
+
+#banner2 button:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("IMGS/PRODUCTS/DENIM SEC/Denim_BANNER.jpg");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
 }
 /* 
 
