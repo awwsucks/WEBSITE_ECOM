@@ -81,6 +81,19 @@ button.abnormal {
     transition: 0.2s;
 }
 
+button.abnormal3 {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
 body {
     width: 100%;
 }
@@ -448,6 +461,12 @@ body {
     color: #ec544e;
     font-weight: 800;
     font-size: 15px;
+    padding-bottom: 60px;
+}
+
+#banner3 button:hover {
+    background: #ffffff;
+    color: #000000;
 }
 
 #newsletter {
